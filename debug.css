@@ -1,0 +1,15 @@
+*[id] {
+  outline: 2px solid red;
+  position: relative;
+}
+
+*[id]::after {
+  content: attr(id);
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 12px;
+  background: red;
+  color: white;
+  padding: 2px;
+}

@@ -1,0 +1,22 @@
+#banner {
+  /* container: banner / size; */
+  /* resize: both; */
+  /* max-width: 600px; */
+  /* min-width: 100px; */
+  /* min-height: 30px; */
+}
+
+#text {
+  line-height: 1em;
+  /* font-size: 42cqw; */
+  /* font-size: min(42cqw, 100cqh); */
+  /* text-align: center; */
+}
+
+/* @container banner (aspect-ratio < 1/6) {
+  #text {
+    font-size: 100cqw;
+    word-break: break-all;
+    text-transform: uppercase;
+  }
+} */
