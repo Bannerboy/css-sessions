@@ -1,0 +1,36 @@
+div {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+#banner {
+  container: banner / size;
+  resize: both;
+  width: 970px;
+  height: 250px;
+  max-width: 970px;
+  min-width: 100px;
+  min-height: 30px;
+
+  & > div{
+    flex: 1;
+    align-items: center;
+  }
+}
+
+#container {
+  flex-direction: column;
+}
+
+/* @container banner (aspect-ratio > 2) {
+  #container {
+    display: contents;
+
+    & > div {
+      flex: 1;
+      align-items: center;
+    }
+  }
+} */

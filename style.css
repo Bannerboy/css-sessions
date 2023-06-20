@@ -17,3 +17,19 @@ body {
   border: solid 1px CanvasText;
   box-sizing: border-box;
 }
+
+.color-1 {
+  background-color: #8cb369;
+}
+.color-2 {
+  background-color: #f4e285;
+}
+.color-3 {
+  background-color: #f4a259;
+}
+.color-4 {
+  background-color: #5b8e7d;
+}
+.color-5 {
+  background-color: #bc4b51;
+}
